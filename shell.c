@@ -26,7 +26,7 @@ int main(void)
 			free(buffer);
 			if (isatty(STDIN_FILENO) != 0)
 				write(STDOUT_FILENO, " ", 1);
-			exit(0);
+			exit(1);
 		}
 		tokenized = tokenize(buffer);
 		if (tokenized[0] != NULL)
