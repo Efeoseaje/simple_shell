@@ -1,19 +1,21 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
+#include "shell.h"
 
 /**
- *main - Entry point
+ * main - entry point
  *
- *Return: Always 0 (Success)
+ * Return: On success Nothing.
  */
 
 int main(void)
 {
-	int sum = 0, a = 5, b = 4;
+	char c;
 
-	sum = a + b;
+	for (c = 'a'; c <= 'z'; c++)
+	{
+		_putchar(c);
 
-	printf("sum = %d", sum);
-	return (0);
+	}
+	_putchar('\n');
+	return(0);
 }
+

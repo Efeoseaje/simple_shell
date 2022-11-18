@@ -14,7 +14,7 @@
 /**---Prototypes functions to print---**/
 void _puts(char *str);
 int _putchar(char c);
-
+void print_alphabet(void);
 /**---Prototypes functions to handle PATH and environment variables---**/
 char *_getenv(const char *name);
 
