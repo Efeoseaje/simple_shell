@@ -9,8 +9,9 @@ void printerror(int error, char **command)
 {
 	if (error == 2)
 	{
+		_puts("./hsh: 1: ");
 		_puts(command[0]);
-		_puts(": command not found\n");
+		_puts(": not found\n");
 	}
 	if (error == 126)
 	{
