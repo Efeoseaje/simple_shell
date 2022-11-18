@@ -36,5 +36,5 @@ int main(void)
 		else
 			free(tokenized);
 	}
-	return (0);
+	return (1);
 }
